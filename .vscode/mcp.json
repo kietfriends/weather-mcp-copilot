@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"weather": {
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"weather-mcp-copilot.csproj",
+				"--no-build"
+			]
+    	}
+	},
+	"inputs": []
+}
