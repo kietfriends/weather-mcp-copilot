@@ -1,0 +1,3 @@
+# Ignore all DLL binaries (case-insensitive)
+*.dll
+*.DLL
