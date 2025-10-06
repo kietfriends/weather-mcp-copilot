@@ -7,7 +7,9 @@ var builder = Host.CreateEmptyApplicationBuilder(settings: null);
 
 builder.Services.AddMcpServer()
     .WithStdioServerTransport()
-    .WithToolsFromAssembly();
+    .WithToolsFromAssembly()
+    .WithResourcesFromAssembly()
+    .WithPromptsFromAssembly();
     
 
 builder.Services.AddSingleton(_ =>
